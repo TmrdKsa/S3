@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# منع الوصول إلى المجلدات الإدارية
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# السماح بفهرسة الصور
+Allow: /images/
+Allow: /assets/
+
+# رابط خريطة الموقع
+Sitemap: https://yourwebsite.com/sitemap.xml
